@@ -1,0 +1,46 @@
+{
+  "name": "TezAviaScheduleUI",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "^4.0.0-beta.3",
+    "classnames": "^2.2.5",
+    "history": "^4.7.2",
+    "immutability-helper": "^2.6.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.22.1",
+    "react": "^16.2.0",
+    "react-dates": "^16.6.1",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^4.2.7",
+    "react-icons": "^2.2.7",
+    "react-loading": "^1.0.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.0.17",
+    "react-table": "^6.7.6",
+    "react-toggle": "^4.0.2",
+    "reactstrap": "^5.0.0-alpha.4",
+    "reduce-reducers": "^0.1.2",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.1",
+    "redux-thunk": "^2.2.0",
+    "riek": "^1.1.0"
+  },
+  "scripts": {
+    "start": "npm run lint && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}

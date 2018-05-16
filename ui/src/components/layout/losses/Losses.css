@@ -1,0 +1,6 @@
+.losses-collapse {
+    z-index: 1000;
+    position: absolute;
+    width: 400px;
+    left: calc(50% - 200px);
+}

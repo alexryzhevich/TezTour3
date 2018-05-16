@@ -1,0 +1,53 @@
+.toolbar {
+    height: 60px;
+    margin: 15px 0;
+}
+
+.toolbar.card {
+    border: none;
+}
+
+.toolbar .btn {
+    margin: 0 5px;
+}
+
+.toolbar-panel {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-panel.right {
+    justify-content: flex-end;
+}
+
+.toolbar-panel.left {
+    justify-content: flex-start;
+}
+
+.toggle-label {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.toggle-label-text {
+    margin-right: 5px;
+}
+
+.dropdown-item:hover {
+    cursor: pointer;
+}
+
+.dropdown-item:active {
+    color: inherit;
+    background-color: inherit;
+}
+
+.dropdown-item:focus {
+    outline: 0;
+}
+
+.dropdown-item.danger {
+    background-color: var(--danger);
+    color: var(--white);
+    margin: 0;
+}

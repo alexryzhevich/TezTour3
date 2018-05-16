@@ -1,0 +1,28 @@
+.Dropzone {
+    width: 350px;
+    height: 300px;
+    border: 2px dashed #92AFB1;
+    background-color: #E4EDF0;
+    color: #3B5F6A;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dropzone:hover {
+    cursor: pointer;
+}
+
+.Dropzone.success {
+    border-color: #C3E5CB;
+    background-color: #D4ECDA;
+    color: #236067;
+}
+
+.Dropzone.error {
+    border-color: #F4C5CA;
+    background-color: #F7D6D9;
+    color: #79384F;
+}

@@ -1,0 +1,5 @@
+.layout-container {
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+}

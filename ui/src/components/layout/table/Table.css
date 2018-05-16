@@ -1,0 +1,92 @@
+.layout-table.ReactTable {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    max-height: calc(100% - 90px);
+    overflow: auto;
+}
+
+.layout-table.ReactTable .rt-thead.-header {
+    display: none;
+}
+
+.layout-table.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td {
+    padding: 1rem;
+}
+
+.layout-table.ReactTable .rt-thead .rt-th {
+    border: none;
+}
+
+.rt-td {
+    padding: 0 !important;
+}
+
+.rt-td div {
+    width: 100%;
+    height: 100%;
+}
+
+.in-places-td, .diagonal-td, .out-places-td {
+    background-color: rgba(72, 72, 123, 0.25);
+}
+
+.in-dates-td, .out-dates-td {
+    background-color: rgba(71, 74, 156, 0.18);
+}
+
+.editable-td, .precomputed-td, .less-5-pct {
+    position: relative;
+}
+
+.editable-td, .with-priorities {
+    background-color: rgba(232, 126, 0, 0.4);
+}
+
+.editable-td > input {
+    width : 100%;
+    height: 100%;
+    outline: none;
+    border:none;
+    background-color: inherit;
+    text-align: center;
+}
+
+.editable-td > span {
+    display: block;
+    width : 100%;
+    height: 100%;
+}
+
+.editable-td.precomputed-td {
+    background-color: rgba(128, 148, 150, 0.2);
+}
+
+.editable-td.less-5-pct {
+    background-color: rgba(225, 21, 57, 0.4);
+}
+
+.editable-td.precomputed-td.less-5-pct {
+    background-color: rgba(187, 37, 87, 0.4);
+}
+
+.editable-td.out-of-order-td {
+    background-color: rgba(75, 133, 158, 0.4);
+}
+
+.editable-td.auto-changed-td {
+    background-color: rgba(220, 53, 69, 0.8);
+}
+
+.reset-icon {
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    right: 0;
+    color: rgba(74, 71, 45, 0.74);
+}
+
+.losses-td {
+    color: var(--red);
+}

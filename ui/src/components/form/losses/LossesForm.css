@@ -1,0 +1,42 @@
+.left-btn {
+    margin-right: 10px;
+}
+
+.no-losses-interval-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.no-losses-interval-row .no-losses-interval {
+    font-size: 1.2em;
+}
+
+.date-range-row {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.date-range-row .DateInput_input {
+    padding: 6px 12px;
+}
+
+.date-range-row .DateRangePickerInput__withBorder {
+    border-radius: 0.25rem;
+}
+
+.date-range-row .DateInput {
+    background: transparent;
+}
+
+.date-range-row .plus-icon {
+    width: 14px;
+    height: 14px;
+}
+
+#dateRangeStartDate {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+#dateRangeEndDate {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
